@@ -14,6 +14,7 @@ Team: Christian, Gabe, Travis
 
 
 - Christian's notes
-
+  1. Took a second to make sure the CSS pathway was right and good to sass --watch in the master
+  2.
 
 - Gabe's notes

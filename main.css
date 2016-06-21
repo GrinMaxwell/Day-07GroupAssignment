@@ -4,4 +4,33 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+main .photos {
+  display: block;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  main .photos:last-child {
+    margin-right: 0; }
+  main .photos img {
+    display: block;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    main .photos img:last-child {
+      margin-right: 0; }
+main .hook p {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  main .hook p:last-child {
+    margin-right: 0; }
+  main .hook p a:hover {
+    color: #94C374; }
+
+footer {
+  background: red; }
+
 /*# sourceMappingURL=main.css.map */
