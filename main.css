@@ -4,33 +4,76 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-main .photos {
-  display: block;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  main .photos:last-child {
-    margin-right: 0; }
-  main .photos img {
+body {
+  background: #CCCCCC; }
+
+main {
+  clear: both;
+  width: 100%;
+  margin: 3rem 0; }
+  main .photos {
     display: block;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    main .photos img:last-child {
-      margin-right: 0; }
-main .hook p {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%; }
-  main .hook p:last-child {
-    margin-right: 0; }
-  main .hook p a:hover {
+    position: relative;
+    overflow-y: hidden; }
+    main .photos .pic1 {
+      display: block;
+      width: 100%; }
+      main .photos .pic1:hover {
+        opacity: 0;
+        transition: opacity 1s; }
+    main .photos .pic2 {
+      display: inline-block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      right: 0;
+      opacity: 0;
+      transition: opacity 1s; }
+      main .photos .pic2:hover {
+        opacity: 1;
+        transition: opacity 1s; }
+    main .photos .pic3 {
+      display: none; }
+
+.hook {
+  clear: both;
+  display: none;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 1rem; }
+  .hook a:hover {
     color: #94C374; }
 
+@media screen and (min-width: 30rem) {
+  main {
+    max-width: 60.3125rem;
+    margin-left: auto;
+    margin-right: auto; }
+    main::after {
+      clear: both;
+      content: "";
+      display: block; }
+    main .photos {
+      max-height: 20vw;
+      overflow-y: hidden; }
+      main .photos .pic1, main .photos .pic2, main .photos .pic3 {
+        position: static;
+        opacity: 1;
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        main .photos .pic1:last-child, main .photos .pic2:last-child, main .photos .pic3:last-child {
+          margin-right: 0; }
+        main .photos .pic1:hover, main .photos .pic2:hover, main .photos .pic3:hover {
+          opacity: 1; }
+    main .hook {
+      display: block; } }
+@media screen and (min-width: 60.3125rem) {
+  main section.photos {
+    max-height: 12.5rem; } }
 footer {
+  clear: both;
   background: red; }
 
 /*# sourceMappingURL=main.css.map */

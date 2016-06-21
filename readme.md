@@ -15,6 +15,12 @@ Team: Christian, Gabe, Travis
 
 - Christian's notes
   1. Took a second to make sure the CSS pathway was right and good to sass --watch in the master
-  2.
+  2. then figuring out how to resolve a very strange github merge compability issue became a problem
+    - eventually I just had to create a .gitignore that ignored all .css and .map files
+  3. when I was ready to start making the desktop version it didn't want to override the previous rules because I didn't realize I had one more level of nesting in the original, which meant one more level of specificity
+  4. one image was slightly taller than the other two
+    - thus I spent awhile and eventually added a whole extra full-width media query just to make sure the max-width of its parent would make sure that one image didn't keep jutting out below its siblings
+    - now it resizes smoothly across all widths
+  5.
 
 - Gabe's notes
