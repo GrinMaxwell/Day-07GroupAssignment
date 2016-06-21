@@ -5,10 +5,19 @@ html {
   box-sizing: inherit; }
 
 footer {
-  text-align: center; }
+  background: #CCC;
+  text-align: center;
+  clear: both; }
   footer .container1 {
     border: 1px solid black; }
   footer .container2 {
     border: 1px solid black; }
+
+.address iframe {
+  position: relative; }
+.address div {
+  position: absolute;
+  left: 40%;
+  bottom: -90px; }
 
 /*# sourceMappingURL=main.css.map */

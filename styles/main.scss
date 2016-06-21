@@ -11,11 +11,24 @@ main{
 }
 
 footer{
+  background: $backgroundcolor;
   text-align: center;
+  clear: both;
   .container1 {
     border: $borderwidth solid $bordercolor
   }
   .container2 {
     border: $borderwidth solid $bordercolor
+  }
+}
+
+.address {
+  iframe{
+    position: relative;
+  }
+  div {
+    position: absolute;
+    left: 40%;
+    bottom: -90px;
   }
 }
