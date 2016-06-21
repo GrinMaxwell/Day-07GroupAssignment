@@ -7,8 +7,24 @@ header{
 }
 
 main{
+  .photos{
+    display: block;
+    @include span-columns(12);
 
+    img{
+      display: block;
+      @include span-columns(4);
+    }
+
+  }
+.hook p{
+    @include span-columns(8);
+    a:hover{
+      color: #94C374;
+    }
+  }
 }
+
 
 footer{
   background: $backgroundcolor;
