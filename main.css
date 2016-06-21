@@ -4,7 +4,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-<<<<<<< HEAD
+
 main .photos {
   display: block;
   float: left;
@@ -31,6 +31,5 @@ main .hook p {
   main .hook p a:hover {
     color: #94C374; }
 
-=======
->>>>>>> master
+
 /*# sourceMappingURL=main.css.map */
