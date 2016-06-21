@@ -1,12 +1,13 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
-
+body{
+  background:#CCCCCC;
+}
 header{
 
 }
 
 main{
-  background:#CCCCCC;
   clear: both;
   width: 100%;
   margin: 3rem 0;

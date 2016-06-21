@@ -4,8 +4,10 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+body {
+  background: #CCCCCC; }
+
 main {
-  background: #CCCCCC;
   clear: both;
   width: 100%;
   margin: 3rem 0; }
