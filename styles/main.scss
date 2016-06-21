@@ -9,6 +9,10 @@ main{
 
 .hook p{
     @include span-columns(8);
+    a:hover{
+      color: #94C374;
+    }
+  
   }
 }
 
