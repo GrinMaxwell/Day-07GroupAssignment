@@ -7,8 +7,12 @@ header{
 
 main{
 
+.hook p{
+    @include span-columns(8);
+  }
+}
 }
 
 footer{
-  
+
 }
