@@ -1,57 +1,51 @@
-html {
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "...backgroundcolor": expected "{", was ";"
+        on line 89 of ./styles/main.scss
 
-*, *::after, *::before {
-  box-sizing: inherit; }
+84: }
+85: 
+86: 
+87: footer{
+88: <<<<<<< HEAD
+89:   background: $backgroundcolor;
+90:   text-align: center;
+91:   clear: both;
+92:   .container1 {
+93:     border: $borderwidth solid $bordercolor
+94:   }
 
-<<<<<<< HEAD
-footer {
-  background: #CCC;
-  text-align: center;
-  clear: both; }
-  footer .container1 {
-    border: 1px solid black; }
-  footer .container2 {
-    border: 1px solid black; }
-
-.address iframe {
-  position: relative; }
-.address div {
-  position: absolute;
-  left: 40%;
-  bottom: -90px;
-  text-shadow: 1px 1px 1px black;
-  font-size: 16px;
-  color: white; }
-=======
-main .photos {
-  display: block;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  main .photos:last-child {
-    margin-right: 0; }
-  main .photos img {
-    display: block;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    main .photos img:last-child {
-      margin-right: 0; }
-main .hook p {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%; }
-  main .hook p:last-child {
-    margin-right: 0; }
-  main .hook p a:hover {
-    color: #94C374; }
-
-footer {
-  background: red; }
->>>>>>> e57ae66224f9f993ca08b822f3a5cf47895d7b62
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+./styles/main.scss:89
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...backgroundcolor\": expected \"{\", was \";\"\A         on line 89 of ./styles/main.scss\A \A 84: }\A 85: \A 86: \A 87: footer{\A 88: <<<<<<< HEAD\A 89:   background: $backgroundcolor;\A 90:   text-align: center;\A 91:   clear: both;\A 92:   .container1 {\A 93:     border: $borderwidth solid $bordercolor\A 94:   }"; }
