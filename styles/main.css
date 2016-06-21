@@ -1,0 +1,10 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+footer {
+  background: red; }
+
+/*# sourceMappingURL=main.css.map */
