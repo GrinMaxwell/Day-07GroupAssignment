@@ -4,28 +4,29 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-header {
-  width: 100%;
-  height: 700px;
-  background-image: url(../images/hero4.jpeg);
-  background-position: 50% 97%;
-  text-align: center;
-  overflow: hidden; }
-  header .hero {
-    margin-top: 320px; }
-    header .hero img {
-      height: 120px;
-      width: 120px; }
-    header .hero h1 {
-      width: 75%;
-      margin: 0 auto;
-      font-family: 'Arvo', serif;
-      font-weight: '700';
-      color: #333;
-      font-size: 90px; }
-
-section {
-  text-align: center; }
+body {
+  background: #CCCCCC; }
+  body header {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/hero4.jpeg);
+    background-position: 50% 97%;
+    text-align: center;
+    overflow: hidden; }
+    body header .hero {
+      margin-top: 320px; }
+      body header .hero img {
+        height: 120px;
+        width: 120px; }
+      body header .hero h1 {
+        width: 75%;
+        margin: 0 auto;
+        font-family: 'Arvo', serif;
+        font-weight: '700';
+        color: #333;
+        font-size: 90px; }
+  body section {
+    text-align: center; }
 
 body {
   background: #CCCCCC; }
@@ -102,7 +103,18 @@ main {
   main section.photos {
     max-height: 12.5rem; } }
 footer {
-  clear: both;
-  background: red; }
+  background: #CCCCCC;
+  text-align: center;
+  clear: both; }
+
+.address iframe {
+  position: relative; }
+.address div {
+  position: absolute;
+  left: 40%;
+  bottom: -90px;
+  text-shadow: 1px 1px 1px black;
+  font-size: 16px;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
