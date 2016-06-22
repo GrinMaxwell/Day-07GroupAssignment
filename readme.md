@@ -21,6 +21,6 @@ Team: Christian, Gabe, Travis
   4. one image was slightly taller than the other two
     - thus I spent awhile and eventually added a whole extra full-width media query just to make sure the max-width of its parent would make sure that one image didn't keep jutting out below its siblings
     - now it resizes smoothly across all widths
-  5.
+  5.Travis had some issues with pushing to github so I'm just pasting his code into my branch and merging it from there
 
 - Gabe's notes

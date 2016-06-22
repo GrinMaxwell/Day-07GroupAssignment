@@ -6,6 +6,30 @@ html {
 
 body {
   background: #CCCCCC; }
+  body header {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/hero4.jpeg);
+    background-position: 50% 97%;
+    text-align: center;
+    overflow: hidden; }
+    body header .hero {
+      margin-top: 320px; }
+      body header .hero img {
+        height: 120px;
+        width: 120px; }
+      body header .hero h1 {
+        width: 75%;
+        margin: 0 auto;
+        font-family: 'Arvo', serif;
+        font-weight: '700';
+        color: #333;
+        font-size: 90px; }
+  body section {
+    text-align: center; }
+
+body {
+  background: #CCCCCC; }
 
 main {
   clear: both;
@@ -56,16 +80,22 @@ main {
     main .photos {
       max-height: 20vw;
       overflow-y: hidden; }
-      main .photos .pic1, main .photos .pic2, main .photos .pic3 {
+      main .photos .pic1,
+      main .photos .pic2,
+      main .photos .pic3 {
         position: static;
         opacity: 1;
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 31.76157%; }
-        main .photos .pic1:last-child, main .photos .pic2:last-child, main .photos .pic3:last-child {
+        main .photos .pic1:last-child,
+        main .photos .pic2:last-child,
+        main .photos .pic3:last-child {
           margin-right: 0; }
-        main .photos .pic1:hover, main .photos .pic2:hover, main .photos .pic3:hover {
+        main .photos .pic1:hover,
+        main .photos .pic2:hover,
+        main .photos .pic3:hover {
           opacity: 1; }
     main .hook {
       display: block; } }

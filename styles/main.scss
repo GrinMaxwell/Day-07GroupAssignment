@@ -3,80 +3,83 @@
 
 body{
   background:#CCCCCC;
+  @import '_header';
 }
-header{
+body {
+    background: #CCCCCC;
 
 }
-
-main{
-  clear: both;
-  width: 100%;
-  margin: 3rem 0;
-  .photos{
-    display: block;
-    position: relative;
-    overflow-y: hidden;
-      .pic1{
+header {}
+main {
+    clear: both;
+    width: 100%;
+    margin: 3rem 0;
+    .photos {
         display: block;
-        width: 100%;
-        &:hover{
-          opacity: 0;
-          transition: opacity 1s;
+        position: relative;
+        overflow-y: hidden;
+        .pic1 {
+            display: block;
+            width: 100%;
+            &:hover {
+                opacity: 0;
+                transition: opacity 1s;
+            }
         }
-      }
-      .pic2{
-        display: inline-block;
-        position: absolute;
-        width: 100%;
-        top:0;
-        right: 0;
-        opacity: 0;
-        transition: opacity 1s;
-        &:hover{
-          opacity: 1;
-          transition: opacity 1s;
+        .pic2 {
+            display: inline-block;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            right: 0;
+            opacity: 0;
+            transition: opacity 1s;
+            &:hover {
+                opacity: 1;
+                transition: opacity 1s;
+            }
         }
-      }
-      .pic3{
-        display: none;
-      }
+        .pic3 {
+            display: none;
+        }
     }
-  }
-.hook{
+}
+.hook {
     clear: both;
     display: none;
     text-align: center;
     width: 100%;
     padding: 2rem 1rem;
-    a:hover{
-      color: #94C374;
+    a:hover {
+        color: #94C374;
     }
-  }
-@media screen and (min-width:rem(480)){
-  main{
-    @include outer-container(rem(965));
-    .photos {
-      max-height: 20vw;
-      overflow-y: hidden;
-    .pic1, .pic2, .pic3{
-      position: static;
-      opacity: 1;
-      @include span-columns(4);
-
-    &:hover{
-      opacity: 1;
+}
+@media screen and (min-width:rem(480)) {
+    main {
+        @include outer-container(rem(965));
+        .photos {
+            max-height: 20vw;
+            overflow-y: hidden;
+            .pic1,
+            .pic2,
+            .pic3 {
+                position: static;
+                opacity: 1;
+                @include span-columns(4);
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+        .hook {
+            display: block;
+        }
     }
-  }
 }
-  .hook{
-    display: block;
-  }
-}
-}
-@media screen and (min-width:rem(965)){
-  main section.photos{
-    max-height: rem(200);
-  }
+@media screen and (min-width:rem(965)) {
+    main section.photos {
+        max-height: rem(200);
+    }
 }
 
 
