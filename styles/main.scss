@@ -1,13 +1,9 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
-<<<<<<< HEAD
-@import 'variables'
 
-=======
 body{
   background:#CCCCCC;
 }
->>>>>>> fac6d4549613eb24fcdee322a5f6f86ce40babf1
 header{
 
 }
@@ -85,18 +81,10 @@ main{
 
 
 footer{
-<<<<<<< HEAD
-  background: $backgroundcolor;
+  background: #CCCCCC;
   text-align: center;
   clear: both;
-  .container1 {
-    border: $borderwidth solid $bordercolor
-  }
-  .container2 {
-    border: $borderwidth solid $bordercolor
-  }
 }
-
 .address {
   iframe{
     position: relative;
@@ -109,8 +97,4 @@ footer{
     font-size: 16px;
     color: white;
   }
-=======
-  clear: both;
-  background: red;
->>>>>>> fac6d4549613eb24fcdee322a5f6f86ce40babf1
 }
