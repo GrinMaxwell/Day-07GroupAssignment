@@ -1,5 +1,6 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
+@import '_header';
 body{
   background:#CCCCCC;
 }
@@ -15,30 +16,14 @@ main{
     display: block;
     position: relative;
     overflow-y: hidden;
-      .pic1{
-        display: block;
-        width: 100%;
-        &:hover{
-          opacity: 0;
-          transition: opacity 1s;
-        }
-      }
-      .pic2{
-        display: inline-block;
-        position: absolute;
-        width: 100%;
-        top:0;
-        right: 0;
-        opacity: 0;
-        transition: opacity 1s;
-        &:hover{
-          opacity: 1;
-          transition: opacity 1s;
-        }
-      }
-      .pic3{
-        display: none;
-      }
+    -webkit-overflow-scrolling: touch;
+    img{
+      position: absolute;
+      width: 100%;
+      height: 30vh;
+      top:0;
+      left: 100vw;
+    }
     }
   }
 .hook{
