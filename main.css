@@ -37,14 +37,26 @@ main {
   main .photos {
     display: block;
     position: relative;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch; }
-    main .photos img {
+    overflow-y: hidden; }
+    main .photos .pic1 {
+      display: block;
+      width: 100%; }
+      main .photos .pic1:hover {
+        opacity: 0;
+        transition: opacity 1s; }
+    main .photos .pic2 {
+      display: inline-block;
       position: absolute;
       width: 100%;
-      height: 30vh;
       top: 0;
-      left: 100vw; }
+      right: 0;
+      opacity: 0;
+      transition: opacity 1s; }
+      main .photos .pic2:hover {
+        opacity: 1;
+        transition: opacity 1s; }
+    main .photos .pic3 {
+      display: none; }
 
 .hook {
   clear: both;
@@ -67,16 +79,22 @@ main {
     main .photos {
       max-height: 20vw;
       overflow-y: hidden; }
-      main .photos .pic1, main .photos .pic2, main .photos .pic3 {
+      main .photos .pic1,
+      main .photos .pic2,
+      main .photos .pic3 {
         position: static;
         opacity: 1;
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 31.76157%; }
-        main .photos .pic1:last-child, main .photos .pic2:last-child, main .photos .pic3:last-child {
+        main .photos .pic1:last-child,
+        main .photos .pic2:last-child,
+        main .photos .pic3:last-child {
           margin-right: 0; }
-        main .photos .pic1:hover, main .photos .pic2:hover, main .photos .pic3:hover {
+        main .photos .pic1:hover,
+        main .photos .pic2:hover,
+        main .photos .pic3:hover {
           opacity: 1; }
     main .hook {
       display: block; } }
