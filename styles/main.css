@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+header {
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/hero4.jpeg);
+  background-position: 50% 97%;
+  text-align: center;
+  overflow: hidden; }
+  header .hero {
+    margin-top: 320px; }
+    header .hero img {
+      height: 120px;
+      width: 120px; }
+    header .hero h1 {
+      width: 75%;
+      margin: 0 auto;
+      font-family: 'Arvo', serif;
+      font-weight: '700';
+      color: #333;
+      font-size: 90px; }
+
+section {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
