@@ -12,6 +12,14 @@ Team: Christian, Gabe, Travis
 
 - Travis' notes
 
+vector art credit
+<a href='http://www.freepik.com/free-vector/vintage-badges-of-bicycles_891161.htm'>Designed by Freepik</a>
+
+<a href="http://www.freepik.com/free-vector/retro-retro-hipster-bicycle-design_714801.htm">Designed by Freepik</a>
+
+<a href="http://www.freepik.com/free-vector/colection-of-retro-bikes_803680.htm">Designed by Freepik</a>
+
+
 
 - Christian's notes
 
